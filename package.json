@@ -1,6 +1,7 @@
 {
   "name": "spotify-secrets",
   "module": "index.ts",
+  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/node": "^24.0.12",
@@ -9,7 +10,6 @@
   "peerDependencies": {
     "typescript": "^5.8.3"
   },
-  "private": true,
   "scripts": {
     "start": "bun run index.ts"
   },
